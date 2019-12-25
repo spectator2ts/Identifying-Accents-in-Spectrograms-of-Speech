@@ -14,7 +14,7 @@ Sequential neural network model was built for modeling. Data augmentation and no
 The model contains 9 layers, including the max pooling layer. Filter size is (2 * 3). Activation functions are ReLu except for the last layer, where Softmax function is implemented for oupting the result. Adam is adopted as the optimizer and the loss is defined as categorical cross-entropy. The details are shown in the code provided.
 
 ## Result
-After 150 epochs of training, the validation accuracy slightly fluctuate around 0.8. Thus I assume the true test accuracy may be around 0.78.
+After 150 epochs of training, the validation accuracy slightly fluctuate around 0.8.
 
 ## Further Improvement
 Below are the tricks I believe may improve the accuracy further but had not tried yet.
