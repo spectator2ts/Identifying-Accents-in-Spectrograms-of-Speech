@@ -1,5 +1,5 @@
 # Identifying-Accents-in-Spectrograms-of-Speech
-This repository contains the code for the IASS(Identifying Accents in Spectrograms) project from 
+This repository contains the code for the IASS(Identifying Accents in Spectrograms of Speech) project from 
 [MPP Capstone Challenge](https://www.datasciencecapstone.org/competitions/16/identifying-accents-speech/page/49/).
 
 ## Problem statement
@@ -9,7 +9,7 @@ The goal is to predict the accent of the speaker from spectrograms of speech sam
 Python 3.7
 
 ## Modeling
-Sequential neural network model was built for modeling. Data augmentation and normalization are implemented for preprosessing. Overlapping max pooling are also utilized. The model is supervised by the validation accuracy to verify improvement. 
+Sequential neural network model was built for modeling. Data augmentation and normalization are implemented for preprosessing. Overlapping max pooling is also utilized. The model is supervised by the validation accuracy to verify improvement. 
 
 The model contains 9 layers, including the max pooling layer. Filter size is (2 * 3). Activation functions are ReLu except for the last layer, where Softmax function is implemented for oupting the result. Adam is adopted as the optimizer and the loss is defined as categorical cross-entropy. The details are shown in the code provided.
 
